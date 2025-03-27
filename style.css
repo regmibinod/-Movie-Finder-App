@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+  }
+  
+  #poster {
+    width: 100%;
+    max-width: 400px;
+    background: #1c1c1c;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Search Form */
+  form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    background: #e50914;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #b20710;
+  }
+  
+  /* Movie Poster Section */
+  .poster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  /* Movie Details */
+  .details {
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .details h2 {
+    font-size: 22px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .details p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .rating {
+    background: gold;
+    color: black;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
