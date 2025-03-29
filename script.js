@@ -16,7 +16,7 @@ if(data.Response === "False"){
       <div class="details">
         <h2>${data.Title}</h2>
         <p><strong>Year:</strong> ${data.Year}</p>
-        <p><strong>Country:</strong>${data.Country}/p>
+        <p><strong>Country:</strong>${data.Country}</p>
         <p class="rating">IMDb Rating: ${data.imdbRating}</p>
         <p>
           <strong>Plot:</strong> ${data.Plot}
